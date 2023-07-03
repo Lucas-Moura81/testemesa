@@ -1,0 +1,24 @@
+package testemesa;
+
+public class TesteMesa {
+   public static void main(String[] args) {
+	 int x = 3; 
+	 int y = 2; 
+	 
+	 int z; 
+	 
+	 char resposta;  
+	 
+	 z = (x * y) + 5; 
+	 
+	 if (z <= 0) {
+		 resposta = 'A'; 
+	 } else if  (z <= 100) {
+		 resposta = 'B';
+	 } else {
+		 resposta = 'C'; 
+	 } 
+	 System.out.println("" + x + y + resposta);
+}   
+  
+} 
